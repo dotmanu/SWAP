@@ -1,7 +1,5 @@
 # Práctica 1
-## Server version: Apache/2.4.18 (Ubuntu)
-Server built:   2016-07-14T12:32:26
-Presentación de las prácticas
+## Presentación de las prácticas
 
 Máquina I con Ubuntu Server 
 
