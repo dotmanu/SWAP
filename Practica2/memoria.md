@@ -11,8 +11,9 @@ Vemos que se ha copiado en la máquina II.
 
 Ahora vamos a copiar un directorio de la máquina I en la máquina II.
 
-![alt text](http://i.imgur.com/TUtchcp.png)
+![alt text](http://i.imgur.com/ExyhOv6.png)
 
 Copia del directorio en la máquina II utilizando rsync.
 
-![alt text](http://i.imgur.com/ExyhOv6.png)
+![alt text](http://i.imgur.com/TUtchcp.png)
+
