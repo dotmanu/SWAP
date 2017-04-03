@@ -18,3 +18,5 @@ Vemos que accede correctamente.
 Ahora pasamos a modificar su configuración, situada en ```/etc/nginx/conf.d/default.conf```. La guardamos con la siguiente información:
 
 ![alt text](http://i.imgur.com/7vevSvV.png)
+
+Tras esto, ejecutamos ```service nginx restart``` y acto seguido probamos a realizar peticiones desde otra máquina a esta (el balanceador).
