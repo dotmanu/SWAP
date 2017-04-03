@@ -33,5 +33,5 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # m h dom mon dow user command
-01 * * * * root rsync -avz -e ssh manu@192.168.1.43:/var/www/ /var/www
+01 * * * * root rsync -avz -e ssh root@192.168.1.43:/var/www/ /var/www
 ```
