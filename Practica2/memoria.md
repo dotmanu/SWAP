@@ -33,5 +33,7 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 # m h dom mon dow user command
-01 * * * * root rsync -avz -e ssh root@192.168.1.43:/var/www/ /var/www
+01 * * * * manu rsync -avz -e ssh manu@192.168.1.43:/var/www/ /var/www
 ```
+
+Como lo he hecho con mi usuario ```manu``` y no el ```root```, es necesario que el usuario sea dueño de la carpeta donde residen los archivos que hay en el espacio web. Para ello, ejecutamos ```sudo chown manu:manu –R /var/www``` en las máquinas.
