@@ -24,3 +24,14 @@ Ahora vamos a configurar el acceso sin contraseña por ssh. En la máquina II, e
 Podemos ver como ya no nos pide contraseña al acceder a la máquina I desde la máquina II.
 
 ![alt text](http://i.imgur.com/F6w9Ude.png)
+
+Vamos ahora a por la última parte de la práctica, establecer una tarea en cron que se ejecute cada hora para mantener
+actualizado el contenido del directorio /var/www entre las dos máquinas. Para ello, hacemos un ```nano /etc/crontab``` y escribimos lo siguiente.
+
+```
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+
+# m h dom mon dow user command
+01 * * * * root rsync -avz -e ssh manu@192.168.1.43:/var/www/ /var/www
+```
