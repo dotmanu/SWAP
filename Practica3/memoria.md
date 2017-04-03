@@ -38,3 +38,7 @@ Una vez lista, activamos Haproxy con ```/usr/sbin/haproxy -f /etc/haproxy/haprox
 ### APACHE BENCHMARK
 
 Como colofón a la práctica, vamos a analizar el rendimiento de los servidores Apache. Nos valdremos de *Apache Benchmark* para comprobar el rendimiento de nuestra granja web recién configurada.
+
+![alt text](http://i.imgur.com/ltiAuw3.jpg)
+
+De donde podemos extraer que nuestra granja está funcionando correctamente.
