@@ -17,3 +17,10 @@ Copia del directorio en la máquina II utilizando rsync.
 
 ![alt text](http://i.imgur.com/TUtchcp.png)
 
+Ahora vamos a configurar el acceso sin contraseña por ssh. En la máquina II, ejecutamos ```ssh-keygen -b 4096 -t rsa``` y generamos la clave ssh. Tras esto, para copiarla a la máquina I, hacemos uso de ```ssh-copy-id```. La orden, al completo y para este caso, sería ```ssh-copy-id -i .ssh/id_rsa.pub manu@192.168.1.43```. A continuación se muestra la generación de la clave.
+
+![alt text](http://i.imgur.com/j5Hdoqn.png)
+
+Podemos ver como ya no nos pide contraseña al acceder a la máquina I desde la máquina II.
+
+![alt text](http://i.imgur.com/F6w9Ude.png)
