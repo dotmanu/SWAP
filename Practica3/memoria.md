@@ -3,7 +3,9 @@
 
 Creamos una tercera máquina con la característica de que ningún software se apropie del puerto 80, por lo que no podemos tener instalado el Apache. Para conseguir dicho cometido, visitamos *Stack Overflow* y descubrimos que es tan simple como ejecutar ```sudo update-rc.d apache2 remove``` en nuestra nueva máquina. Sin embargo, aún así, parece que había otro proceso utilizando dicho puerto. Para evitar tal cosa, ejecutamos ```sudo fuser -k 80/tcp```.
 
-Lo siguiente será instalar el servidor Nginx.
+### NGINX
+
+Lo siguiente será instalar el servidor **Nginx**.
 
 ```
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
@@ -22,3 +24,17 @@ Ahora pasamos a modificar su configuración, situada en ```/etc/nginx/conf.d/def
 Tras esto, ejecutamos ```service nginx restart``` y acto seguido probamos a realizar peticiones desde otra máquina a esta (el balanceador) con ```curl```.
 
 ![alt text](http://i.imgur.com/J30ALHR.jpg)
+
+### HAPROXY
+
+Vamos ahora a por **Haproxy**, no sin antes hacer un ```service nginx stop```. Lo instalamos con ```apt-get install haproxy``` y accedemos a su configuración.
+
+![alt text](http://i.imgur.com/rdlrfDg.png)
+
+Una vez lista, activamos Haproxy con ```/usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg``` y probamos como con Nginx, se produce el balanceo entre ambos servidores.
+
+![alt text](http://i.imgur.com/KdthzC6.jpg)
+
+### APACHE BENCHMARK
+
+Como colofón a la práctica, vamos a analizar el rendimiento de los servidores Apache. Nos valdremos de *Apache Benchmark* para comprobar el rendimiento de nuestra granja web recién configurada.
