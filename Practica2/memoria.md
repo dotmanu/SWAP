@@ -3,16 +3,16 @@
 
 Probamos la copia de archivos con ssh.
 
-![alt text](http://imgur.com/P1d7arw)
+![alt text](http://i.imgur.com/P1d7arw.png)
 
 Vemos que se ha copiado en la máquina II.
 
-![alt text](http://imgur.com/oMJNgGE)
+![alt text](http://i.imgur.com/oMJNgGE.png)
 
 Ahora vamos a copiar un directorio de la máquina I en la máquina II.
 
-![alt text](http://imgur.com/TUtchcp)
+![alt text](http://i.imgur.com/TUtchcp.png)
 
 Copia del directorio en la máquina II utilizando rsync.
 
-![alt text](http://imgur.com/ExyhOv6)
+![alt text](http://i.imgur.com/ExyhOv6.png)
