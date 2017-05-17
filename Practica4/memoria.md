@@ -29,6 +29,7 @@ Nos aparecerá el mensaje de certificado no válido:
 
 ![alt text](http://i.imgur.com/hYsry5S.png)
 
+
 ### Configuración del cortafuegos
 
 Primero comprobamos el estado del cortafuegos:
