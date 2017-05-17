@@ -28,3 +28,43 @@ Solo resta activar el modo ```default-ssl``` con ```a2ensite default-ssl``` y re
 Nos aparecerá el mensaje de certificado no válido:
 
 ![alt text](http://i.imgur.com/hYsry5S.png)
+
+### Configuración del cortafuegos
+
+Primero comprobamos el estado del cortafuegos:
+
+```iptables –L –n -v```
+
+![alt text](http://i.imgur.com/FDxqM73.png)
+
+De donde se deduce que no hay ningún tipo de configuración y permite todo el tráfico, así que de entrada vamos a denegarlo estableciendo las políticas por defecto. Lo hacemos con:
+
+```
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+```
+
+Permitimos el tráfico de salida con ```iptables -P OUTPUT ACCEPT``` y ```iptables -A INPUT -m state --state NEW,ESTABLISHED -j ACCEPT```. Además, bloqueamos el tráfico ICMP (ping), para evitar ataques como el del ping de la muerte con ```iptables -A INPUT -p icmp --icmp-type echo-request -j DROP```. 
+
+Abrimos los puertos HTTP y HTTPS, 80 (```iptables -A INPUT -m state --state NEW -p tcp --dport 80 -j ACCEPT```) y 443 (```iptables -A INPUT -m state --state NEW -p tcp --dport 443 -j ACCEPT```) respectivamente, para poder servir webs.
+
+Permitimos el acceso DNS abriendo el puerto 53 con ```iptables -A INPUT -m state --state NEW -p udp --dport 53 -j ACCEPT``` y ```iptables -A INPUT -m state --state NEW -p tcp --dport 53 -j ACCEPT```.
+
+Para poder administrar remotamente la máquina por SSH, abrimos el puerto 22 para la entrada con ```iptables -A INPUT -p tcp --dport 22 -j ACCEPT``` y la salida con ```iptables -A OUTPUT -p udp --sport 22 -j ACCEPT```.
+
+Ejecutamos ```iptables –L –n -v``` y vemos el resultado:
+
+![alt text](http://i.imgur.com/HxKLhn1.png)
+
+Solo resta crear un script que se ejecute en el arranque del sistema con la configuración del IPTABLES para el cortafuegos. Ejecutamosn ```ano script_iptables.sh``` y ponemos lo siguiente:
+
+![alt text](http://i.imgur.com/KoQ1REY.png)
+
+Para que se ejecute cada que vez que se inicie la máquina, modificamos el archivo ```/etc/rc.local```:
+
+![alt text](http://i.imgur.com/RVZX2jP.png)
+
+Y ya lo tenemos. Cada vez que la máquina se inicie aparecerá con nuestra configuración de IPTABLES por defecto.
+
+
