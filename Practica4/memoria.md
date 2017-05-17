@@ -7,8 +7,7 @@ En esta práctica vamos a poner en práctica el uso de certificados SSL que perm
 
 Empezamos generando nuestro certificado SSL con el comando ```a2enmod ssl``` para generar los módulos de ssl en nuestra máquina, tras lo cual reiniciaremos Apache, creamos la carpeta que contendrá el certificado SSL y finalmente, lo generamos con el comando:
 
-```openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout
-/etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt```
+```openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/apache.key -out /etc/apache2/ssl/apache.crt```
 
 Se muestra a continuación el proceso al completo realizado en la máquina:
 
