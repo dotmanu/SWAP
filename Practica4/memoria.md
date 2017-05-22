@@ -68,6 +68,8 @@ Para que se ejecute cada que vez que se inicie la máquina, modificamos el archi
 
 Y ya lo tenemos. Cada vez que la máquina se inicie aparecerá con nuestra configuración de IPTABLES por defecto.
 
+### Testeando nuestro Firewall con *nmap* y *tcpdump*
+
 Para ver que el Firewall está funcionando correctamente, utilizamos ```nmap```y ```tcpdump```. Para ello seguimos estos pasos, previa creación del directorio ```scan_results/syn_scan/packets```:
 
 ```tcpdump host 10.0.2.4 -w ~/scan_results/syn_scan/packets```
