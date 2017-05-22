@@ -68,4 +68,36 @@ Para que se ejecute cada que vez que se inicie la máquina, modificamos el archi
 
 Y ya lo tenemos. Cada vez que la máquina se inicie aparecerá con nuestra configuración de IPTABLES por defecto.
 
+Para ver que el Firewall está funcionando correctamente, utilizamos ```nmap```y ```tcpdump```. Para ello seguimos estos pasos, previa creación del directorio ```scan_results/syn_scan/packets```:
 
+```tcpdump host 10.0.2.4 -w ~/scan_results/syn_scan/packets```
+
+Con esto empezamos a capturar el tráfico para nuestra IP; podemos hacer ```CTRL-Z``` y luego ```bg``` para que el proceso corra en segundo plano.
+
+Tras esto ejecutamos nmap:
+
+```nmap -sS -Pn -p- -T4 -vv --reason -oN ~/scan_results/syn_scan/nmap.results 10.0.2.4```
+
+Y ya podemos devolver tcpdump a primer plano y pararlo con CTRL-C. Veamos los resultados.
+
+*Tráfico enviado*
+
+```tcpdump -nn -r ~/scan_results/syn_scan/packets 'dst 10.0.2.4' | less```
+
+![alt text](http://i.imgur.com/en0930f.png)
+
+*Tráfico de respuesta*
+
+```tcpdump -nn -r ~/scan_results/syn_scan/packets 'src 10.0.2.4' | less```
+
+![alt text](http://i.imgur.com/kXRGr5K.png)
+
+Adicionalmente, los puertos TCP responderán a estas peticiones con un paquete SYN. Podemos filtrarlas así:
+
+```tcpdump -nn -r ~/scan_results/syn_scan/packets 'src 10.0.2.4 and tcp[tcpflags] & tcp-syn != 0' | less```
+
+![alt text](http://i.imgur.com/836JHkm.png)
+
+Esto nos mostrará aquellas respuestas SYN que se han realizado con éxito.
+
+Más información sobre el uso de ```nmap```y ```tcpdump``` para testear nuestro Firewall en este tutorial de [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-test-your-firewall-configuration-with-nmap-and-tcpdump).
