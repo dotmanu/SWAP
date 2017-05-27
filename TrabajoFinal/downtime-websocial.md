@@ -34,9 +34,19 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 
 ## 3. El coste económico: el precio del tiempo
 
+Si nos vamos a datos de 2013, según el *Ponemon Institute*, el coste por minuto de tiempo de inactividad rozaba los ocho mil dólares, superando en más de un 40% a la cifra de 2010. Teniendo en cuenta que en 2013 la media de *downtime* por empresa fue de 83 minutos, estaríamos hablando de un coste de 690.200 dólares. Si bien se trata de una cifra estimada, no deja de ser representativo. Atendiendo a los datos de 2016, la cifra asciende hasta los 740.350 dólares. Claro está, los datos difieren totalmente entre unas empresas y otras: el año pasado, la cifra más alta de gasto derivado del *downtime* en una empresa es de 2.4 millónes de dólares, un aumento del 38'95% con respecto a 2013 y de un 136'8% con respecto a 2010. 
+
 ![alt text](http://i.imgur.com/sJWuQlw.png)
 
+
+
 ![alt text](http://i.imgur.com/8950VZC.png)
+
+En el siguiente gráfico, finalmente, vemos la relación entre la cuantía económica y el paso del tiempo en un período de *downtime*, de donde podemos extraer (a juzgar por la recta de regresión) que, efectivamente, cuanto más tiempo se tarda en actuar, más asciende el coste económico de la caída de un servidor. 
+
+![alt text](http://i.imgur.com/RCsOs1T.png)
+
+Tal y como reza la frase usualmente acreditada a Benjamin Franklin, *time is money*, el tiempo es dinero. La alta disponibilidad en relación al funcionamiento continuo de los sistemas informáticos en caso de una interrupción es clave para evitar pérdidas económicas. 
 
 ## 4. Pérdida de confianza: un reflejo social
 
