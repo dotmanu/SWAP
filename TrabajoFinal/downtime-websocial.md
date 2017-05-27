@@ -66,7 +66,7 @@ Teniendo en cuenta estos factores, se debe: contar con una estrategia de respues
  
 En definitiva, podemos decir que viviendo en el momento histórico en el que vivimos, la disponibilidad de nuestros servicios como empresa debe ser primordial. No podemos traicionar la confianza del usuario y, mucho menos, poner en duda la calidad de nuestro servicio. Teniendo en cuenta la brutal competencia que hay ahí fuera, es primordial reducir nuestro downtime o tiempo de respuesta al mínimo. Por una parte, porque puede afectar negativamente a nuestros ingresos y, por otro, porque puede minar la confianza del público en nuestro producto, llevándonos a una pérdida de usuarios y al fin total de nuestra aventura tecnológica.
 
-## Referencias
+## Bibliografía
 
 **[1]** IBM Global Technology Services. 2014. [Time is money and downtime is expensive](http://public.dhe.ibm.com/common/ssi/ecm/mt/en/mtw03011usen/MTW03011USEN.PDF?cm_mc_uid=40722369935914958827176&cm_mc_sid_50200000=1495882717&cm_mc_sid_52640000=1495882717). 
 
