@@ -38,7 +38,7 @@ Si nos vamos a datos de 2013, según el *Ponemon Institute*, el coste por minuto
 
 ![alt text](http://i.imgur.com/sJWuQlw.png)
 
-Si atendemos a su clasificación por tipo de gasto derivado del *downtime*, podemos extraer información interesante. Por un lado, hay que remarcar el hecho de que los costes indirectos sean superiores a los directos. Esto implica que solucionar un problema (es decir, acotar un problema a un determinado coste) no solo no cierra la puerta a otros costes, sino que estos lo superan. Además, podemos ver como en menor medida, el coste de oportunidad aparece asociado a algunas empresas. Esto es, "el valor de la mejor opción no realizada". El coste de oportunidad tiene que ver con recursos limitados y las oportunidades disponibles, basándose en el principio de la rentabilidad esperada: tomar decisiones en base al coste o privación de recursos para conseguir la mayor rentabilidad. ¿Qué pinta aquí, hablando de servidores? Pinta bastante: se trata del costo resultante de la pérdida de oportunidades de negocio como consecuencia de la disminución de la reputación después de la caída del servicio. Volvemos a uno de los aspectos clave: no solo se trata del coste concreto que conlleva el tiempo de inactividad, sino sus gastos asociados; los indirectos y aquellos derivados de la pérdida de confianza en el servicio.
+Si atendemos a su clasificación por tipo de gasto derivado del *downtime*, podemos extraer información interesante. Por un lado, hay que remarcar el hecho de que los costes indirectos sean superiores a los directos. Esto implica que solucionar un problema (es decir, acotar un problema a un determinado coste) no solo no cierra la puerta a otros costes, sino que estos lo superan. Además, podemos ver como en menor medida, el coste de oportunidad aparece asociado a algunas empresas. Esto es, "el valor de la mejor opción no realizada". El coste de oportunidad tiene que ver con recursos limitados y las oportunidades disponibles, basándose en el principio de la rentabilidad esperada: tomar decisiones en base al coste o privación de recursos para conseguir la mayor rentabilidad. ¿Qué pinta aquí, hablando de servidores? Pinta bastante: se trata del costo resultante de la pérdida de oportunidades de negocio como consecuencia de la disminución de la reputación después de la caída del servicio. Volvemos a uno de los aspectos clave: no solo se trata del coste concreto que conlleva un tiempo de inactividad determinado, sino sus gastos asociados; los indirectos y aquellos derivados de la pérdida de confianza en el servicio.
 
 ![alt text](http://i.imgur.com/8950VZC.png)
 
@@ -50,11 +50,13 @@ Tal y como reza la frase usualmente acreditada a Benjamin Franklin, *time is mon
 
 ## 4. Pérdida de confianza: un reflejo social
 
+Llegados a este punto es donde realmente entre en juego la web social o 2.0, si bien ya se ha explicado que, dada su extensibilidad a todos los campos de la sociedad actual, podríamos obviar incidir en el término como algo no ligado al estudio. Sin embargo, conviene incidir en esta parte en el papel que juega la disponibilidad de los servicios en una rama muy concreta de esa web social o 2.0: las redes sociales.
 
+// ...
 
 ## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
 
-
+// ...
 
 ## 6. Conclusiones: prevenir y actuar contra el *downtime*
 
