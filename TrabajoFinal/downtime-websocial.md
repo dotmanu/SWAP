@@ -1,4 +1,4 @@
-# *Downtime* en la web social o 2.0: estudiando su impacto socioeconómico, por Manuel Garrido Reche
+# *Downtime* en la web social o 2.0: estudiando su impacto socioeconómico
 
 **Extracto**
  
@@ -18,11 +18,11 @@ Que un servicio no esté disponible, en un mundo completamente dependiente de la
 
 Veamos dos ejemplos básicos. Por una parte, aplicaciones enfocadas a los negocios (CRM, ERP), sin las que una empresa no podría acceder a su información, comprometiendo las operaciones de dicha organización, imposibilitando la integración y parando el flujo de datos entre las distintos niveles de la empresa. Por otra, servicios tecnológicos, lo básico de los básico. Nuestra dependencia ante el acceso a nuestro email, internet o servicios de intranet en empresas, nos hace susceptibles del colapso ante la caída de servidores. 
 
-### 2.1 Por qué ocurre y cómo prevenirlo
+### 2.1. Por qué ocurre
 
+![alt text](http://i.imgur.com/NcWJtXF.png)
 
-
-### 2.2 Consecuencias de una mala gestión
+### 2.2. Consecuencias de una mala gestión
 
 La consecuencia principal del *downtime* es la productividad. Que una empresa no pueda acceder a sus herramientas básicas de operación llevará a una pérdida de tiempo, lo que se traduce directamente en una pérdida de dinero. Aunque el tiempo de inactividad puede suponer pérdidas económicas puntuales, no abordar el problema correctamente puede llevar a un auténtico descalabro para una empresa.
  
@@ -34,14 +34,13 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 
 ## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
 
-## 6. Conclusiones
+## 6. Conclusiones: cómo prevenir el *downtime*
 
 Tras repasar los distintos aspectos que están involucrados en el tiempo de inactividad de los servicios a los que accedemos diariamente, llegamos a la conclusión de la necesidad de adoptar medidas que permitan reducir el coste y el impacto de posibles caídas. Para ello, debemos contar con un equipo capaz de tomar decisiones y adoptar prioridades en función del coste del downtime (el cual ha ido creciendo en los últimos años). Además, es necesario llevar un control exhaustivo y constante de nuestro soporte técnico: personas involucradas, procesos y sobre todo, la tecnología con la que se llevan a cabo. Para ello será necesario que el equipo encargado del soporte técnico sea parte fundamental de la empresa, servicio, aplicación; el hecho de que funcione en paralelo con respecto a la infraestructura permitirá una mejor respuesta ante situaciones complicadas.
  
 Teniendo en cuenta estos factores, se debe: contar con una estrategia de respuesta clara que aborde todos los niveles del equipo; tomar decisiones que aboguen por la calidad del servicio y no por reducir costes que a posteriori pueden incrementarse exponencialmente por no haber respondido con contundencia; estar al tanto de metodologías, herramientas, logística y capital intelectual. Por último, pero no menos importante, debemos ser críticos con nuestro proveedor. Si nuestro servicio depende de un agente externo para funcionar (es decir, si dependemos de sus servidores), debemos evaluar la calidad del soporte. Las veces que la respuesta ante un problema ha sido positiva y hemos solucionado nuestra problemática a la primera, el tiempo que ha llevado solucionarse y los distintos factores implicados en su solución.
  
 En definitiva, podemos decir que viviendo en el momento histórico en el que vivimos, la disponibilidad de nuestros servicios como empresa debe ser primordial. No podemos traicionar la confianza del usuario y, mucho menos, poner en duda la calidad de nuestro servicio. Teniendo en cuenta la brutal competencia que hay ahí fuera, es primordial reducir nuestro downtime o tiempo de respuesta al mínimo. Por una parte, porque puede afectar negativamente a nuestros ingresos y, por otro, porque puede minar la confianza del público en nuestro producto, llevándonos a una pérdida de usuarios y al fin total de nuestra aventura tecnológica.
-
 
 ## Referencias
 
@@ -51,8 +50,8 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 
 **[3]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime).
 
-**[4]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411).
+**[4]** 
 
 **[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/).
 
-**[6]**
+**[6]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411).
