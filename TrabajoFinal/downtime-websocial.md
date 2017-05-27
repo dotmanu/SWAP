@@ -40,7 +40,7 @@ Si nos vamos a datos de 2013, según el *Ponemon Institute*, el coste por minuto
 
 Si atendemos a su clasificación por tipo de gasto derivado del *downtime*, podemos extraer información interesante. Por un lado, hay que remarcar el hecho de que los costes indirectos sean superiores a los directos. Esto implica que solucionar un problema (es decir, acotar un problema a un determinado coste) no solo no cierra la puerta a otros costes, sino que estos lo superan. Además, podemos ver como en menor medida, el coste de oportunidad aparece asociado a algunas empresas. Esto es, "el valor de la mejor opción no realizada". El coste de oportunidad tiene que ver con recursos limitados y las oportunidades disponibles, basándose en el principio de la rentabilidad esperada: tomar decisiones en base al coste o privación de recursos para conseguir la mayor rentabilidad. ¿Qué pinta aquí, hablando de servidores? Pinta bastante: se trata del costo resultante de la pérdida de oportunidades de negocio como consecuencia de la disminución de la reputación después de la caída del servicio. Volvemos a uno de los aspectos clave: no solo se trata del coste concreto que conlleva un tiempo de inactividad determinado, sino sus gastos asociados; los indirectos y aquellos derivados de la pérdida de confianza en el servicio.
 
-![alt text](http://i.imgur.com/8950VZC.png)
+![alt text](http://i.imgur.com/xf96xV7.png)
 
 En el siguiente gráfico, finalmente, vemos la relación entre la cuantía económica y el paso del tiempo en un período de *downtime*, de donde podemos extraer (a juzgar por la recta de regresión) que, efectivamente, cuanto más tiempo se tarda en actuar, más asciende el coste económico de la caída de un servidor. 
 
