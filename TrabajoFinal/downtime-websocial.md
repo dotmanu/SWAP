@@ -45,8 +45,13 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 ## Referencias
 
 **[1]** IBM Global Technology Services. 2014. [Time is money and downtime is expensive](http://public.dhe.ibm.com/common/ssi/ecm/mt/en/mtw03011usen/MTW03011USEN.PDF?cm_mc_uid=40722369935914958827176&cm_mc_sid_50200000=1495882717&cm_mc_sid_52640000=1495882717). 
+
 **[2]** McClary, Rob. Data Center Journal. 2015. [Unplanned Downtime: What does it cost your business?](http://www.datacenterjournal.com/unplanned-downtime-cost-business/)
+
 **[3]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime)
+
 **[4]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411)
+
 **[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/)
+
 **[6]**
