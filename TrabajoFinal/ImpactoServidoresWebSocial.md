@@ -1,5 +1,4 @@
-# Impacto socioeconómico de la caída de servidores en la web social o 2.0
-## Manuel Garrido Reche
+# Impacto socioeconómico de la caída de servidores en la web social o 2.0, por Manuel Garrido Reche
  
 **Extracto**
  
