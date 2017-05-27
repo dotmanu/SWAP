@@ -32,8 +32,6 @@ La consecuencia principal del *downtime* es la productividad. Que una empresa no
  
 Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de confianza por parte de otros clientes (desembocando en la ruptura de relaciones comerciales), penalizaciones debido a la falta de disponibilidad... Todo ello podría resultar en una caída en la reputación y, por ende, en la condena pública a una empresa a la pérdida total de su base de usuarios.
 
-
-
 ## 3. El coste económico: el precio del tiempo
 
 ## 4. Pérdida de confianza: un reflejo social
@@ -46,12 +44,12 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 
 **[1]** IBM Global Technology Services. 2014. [Time is money and downtime is expensive](http://public.dhe.ibm.com/common/ssi/ecm/mt/en/mtw03011usen/MTW03011USEN.PDF?cm_mc_uid=40722369935914958827176&cm_mc_sid_50200000=1495882717&cm_mc_sid_52640000=1495882717). 
 
-**[2]** McClary, Rob. Data Center Journal. 2015. [Unplanned Downtime: What does it cost your business?](http://www.datacenterjournal.com/unplanned-downtime-cost-business/)
+**[2]** McClary, Rob. Data Center Journal. 2015. [Unplanned Downtime: What does it cost your business?](http://www.datacenterjournal.com/unplanned-downtime-cost-business/).
 
-**[3]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime)
+**[3]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime).
 
-**[4]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411)
+**[4]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411).
 
-**[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/)
+**[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/).
 
 **[6]**
