@@ -18,9 +18,13 @@ Que un servicio no esté disponible, en un mundo completamente dependiente de la
 
 Veamos dos ejemplos básicos. Por una parte, aplicaciones enfocadas a los negocios (CRM, ERP), sin las que una empresa no podría acceder a su información, comprometiendo las operaciones de dicha organización, imposibilitando la integración y parando el flujo de datos entre las distintos niveles de la empresa. Por otra, servicios tecnológicos, lo básico de los básico. Nuestra dependencia ante el acceso a nuestro email, internet o servicios de intranet en empresas, nos hace susceptibles del colapso ante la caída de servidores. 
 
-### 2.1. Por qué ocurre
+### 2.1. Por qué ocurre: causas del *downtime*
+
+Según un estudio del *Penomon Institute* realizado a finales del año pasado, en porcentaje, la mayor parte de los problemas relacionados con el tiempo de actividad se derivan de errores que no se pueden controlar: fallos en los sistemas de alimentación ininterrumpida, causas relacionadas con la temperatura, el clima, fallos en el generador... Otra buena parte del *downtime* es debido a errores accidentales, esto es, a errores humanos. 
 
 ![alt text](http://i.imgur.com/NcWJtXF.png)
+
+Como se puede observar en la gráfica, si bien durante los últimos años se han mantenido los porcentajes relativos a las diferentes causas, los ciberataques (especialmente aquellos de denegación de servicio, DDos) se han multiplicado, pasando de apenas un 2% en 2010 a un 22% del total en 2016. Este es el problema significativo a día de hoy y el más difícil de combatir.
 
 ### 2.2. Consecuencias de una mala gestión
 
@@ -33,7 +37,7 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 ## 4. Pérdida de confianza: un reflejo social
 
 ## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
-
+e
 ## 6. Conclusiones: cómo prevenir el *downtime*
 
 Tras repasar los distintos aspectos que están involucrados en el tiempo de inactividad de los servicios a los que accedemos diariamente, llegamos a la conclusión de la necesidad de adoptar medidas que permitan reducir el coste y el impacto de posibles caídas. Para ello, debemos contar con un equipo capaz de tomar decisiones y adoptar prioridades en función del coste del downtime (el cual ha ido creciendo en los últimos años). Además, es necesario llevar un control exhaustivo y constante de nuestro soporte técnico: personas involucradas, procesos y sobre todo, la tecnología con la que se llevan a cabo. Para ello será necesario que el equipo encargado del soporte técnico sea parte fundamental de la empresa, servicio, aplicación; el hecho de que funcione en paralelo con respecto a la infraestructura permitirá una mejor respuesta ante situaciones complicadas.
@@ -46,12 +50,10 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 
 **[1]** IBM Global Technology Services. 2014. [Time is money and downtime is expensive](http://public.dhe.ibm.com/common/ssi/ecm/mt/en/mtw03011usen/MTW03011USEN.PDF?cm_mc_uid=40722369935914958827176&cm_mc_sid_50200000=1495882717&cm_mc_sid_52640000=1495882717). 
 
-**[2]** McClary, Rob. Data Center Journal. 2015. [Unplanned Downtime: What does it cost your business](http://www.datacenterjournal.com/unplanned-downtime-cost-business/).
+**[2]** Ponemon Institute. 2016. [Cost of Data Center Outages](http://planetaklimata.com.ua/instr/Liebert_Hiross/Cost_of_Data_Center_Outages_2016_Eng.pdf).
 
-**[3]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime).
+**[3]** McClary, Rob. Data Center Journal. 2015. [Unplanned Downtime: What does it cost your business](http://www.datacenterjournal.com/unplanned-downtime-cost-business/).
 
-**[4]** 
+**[4]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime).
 
 **[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/).
-
-**[6]** Burns, Paul (Technology Services Group). Interview at TechRadar. 2014. [Why downtime is more than just an inconvenience for your business](http://www.techradar.com/news/world-of-tech/management/why-downtime-is-more-than-just-an-inconvenience-for-your-business-1255411).
