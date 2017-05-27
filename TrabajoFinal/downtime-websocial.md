@@ -24,7 +24,7 @@ Según un estudio del *Penomon Institute* realizado a finales del año pasado, e
 
 ![alt text](http://i.imgur.com/NcWJtXF.png)
 
-Como se puede observar en la gráfica, si bien durante los últimos años se han mantenido los porcentajes relativos a las diferentes causas, los ciberataques (especialmente aquellos de denegación de servicio, DDos) se han multiplicado, pasando de apenas un 2% en 2010 a un 22% del total en 2016. Este es el problema significativo a día de hoy y el más difícil de combatir.
+Como se puede observar en la gráfica, si bien durante los últimos años se han mantenido los porcentajes relativos a las diferentes causas, los ciberataques (especialmente aquellos de denegación de servicio, DDoS) se han multiplicado, pasando de apenas un 2% en 2010 a un 22% del total en 2016; su aumento en los próximos años está garantizado. Este es el problema más significativo a día de hoy y el más difícil de combatir.
 
 ### 2.2. Consecuencias de una mala gestión
 
@@ -34,13 +34,21 @@ Pérdida de oportunidades (transacciones, compras online, acuerdos), pérdida de
 
 ## 3. El coste económico: el precio del tiempo
 
+![alt text](http://i.imgur.com/sJWuQlw.png)
+
+![alt text](http://i.imgur.com/8950VZC.png)
+
 ## 4. Pérdida de confianza: un reflejo social
 
-## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
-e
-## 6. Conclusiones: cómo prevenir el *downtime*
 
-Tras repasar los distintos aspectos que están involucrados en el tiempo de inactividad de los servicios a los que accedemos diariamente, llegamos a la conclusión de la necesidad de adoptar medidas que permitan reducir el coste y el impacto de posibles caídas. Para ello, debemos contar con un equipo capaz de tomar decisiones y adoptar prioridades en función del coste del downtime (el cual ha ido creciendo en los últimos años). Además, es necesario llevar un control exhaustivo y constante de nuestro soporte técnico: personas involucradas, procesos y sobre todo, la tecnología con la que se llevan a cabo. Para ello será necesario que el equipo encargado del soporte técnico sea parte fundamental de la empresa, servicio, aplicación; el hecho de que funcione en paralelo con respecto a la infraestructura permitirá una mejor respuesta ante situaciones complicadas.
+
+## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
+
+
+
+## 6. Conclusiones: prevenir y actuar contra el *downtime*
+
+Tras repasar los distintos aspectos que están involucrados en el tiempo de inactividad de los servicios a los que accedemos diariamente, llegamos a la conclusión de la necesidad de adoptar medidas que permitan reducir el coste y el impacto de posibles caídas. Para ello, debemos contar con un equipo capaz de tomar decisiones y adoptar prioridades en función del coste del *downtime* (el cual ha ido creciendo en los últimos años). Además, es necesario llevar un control exhaustivo y constante de nuestro soporte técnico: personas involucradas, procesos y sobre todo, la tecnología con la que se llevan a cabo. Para ello será necesario que el equipo encargado del soporte técnico sea parte fundamental de la empresa, servicio, aplicación; el hecho de que funcione en paralelo con respecto a la infraestructura permitirá una mejor respuesta ante situaciones complicadas.
  
 Teniendo en cuenta estos factores, se debe: contar con una estrategia de respuesta clara que aborde todos los niveles del equipo; tomar decisiones que aboguen por la calidad del servicio y no por reducir costes que a posteriori pueden incrementarse exponencialmente por no haber respondido con contundencia; estar al tanto de metodologías, herramientas, logística y capital intelectual. Por último, pero no menos importante, debemos ser críticos con nuestro proveedor. Si nuestro servicio depende de un agente externo para funcionar (es decir, si dependemos de sus servidores), debemos evaluar la calidad del soporte. Las veces que la respuesta ante un problema ha sido positiva y hemos solucionado nuestra problemática a la primera, el tiempo que ha llevado solucionarse y los distintos factores implicados en su solución.
  
