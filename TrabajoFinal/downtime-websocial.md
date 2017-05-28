@@ -50,7 +50,21 @@ Tal y como reza la frase usualmente acreditada a Benjamin Franklin, *time is mon
 
 ## 4. Pérdida de confianza: un reflejo social
 
-Llegados a este punto es donde realmente entre en juego la web social o 2.0, si bien ya se ha explicado que, dada su extensibilidad a todos los campos de la sociedad actual, podríamos obviar incidir en el término como algo no ligado al estudio. Sin embargo, conviene incidir en esta parte en el papel que juega la disponibilidad de los servicios en una rama muy concreta de esa web social o 2.0: las redes sociales.
+Llegados a este punto es donde realmente entre en juego la web social o 2.0, si bien ya se ha explicado que, dada su extensibilidad a todos los campos de la sociedad actual, podríamos obviar incidir en el término como algo no ligado al estudio. Sin embargo, conviene incidir en esta parte en el papel que juega la disponibilidad de los servicios en una rama muy concreta de esa web 2.0: las redes sociales.
+
+La caída de servicios tan fundamentales en nuestra vida diaria para la comunicación como Gmail, o a los que nos hemos hecho totalmente dependientes para mensajearnos como Twitter, Facebook o WhatsApp, puede provocar un verdadero impacto a escala social. Aunque no existen datos estadísticos sobre los efectos del tiempo de inactividad experimentado por estas aplicaciones, podemos mirar atrás y estudiar los datos de algunas de sus caídas más relevantes.
+
+### Twitter y su ballena azul: caídas constantes en sus primeros años
+
+En los primeros años de Twitter, la red social se hizo bien conocida, entre otras cosas, por su página de error. Se trataba de una ballena a la que transportaban varios pájaros, emulando el logo de Twitter. El mensaje "Twitter is over capacity" era habitual mientras la red social crecía: actualizaciones, nuevas características... Twitter mejoraba su infraestructura, pero las caídas eran inevitables: la base de usuarios no dejaba de crecer. La CNN titulaba en 2010: "Twitter can't kill the Fail Whale". Las caídas eran recurrentes: de hasta una hora de duración, a veces más, y una comunidad de usuarios que, si bien se fue acostumbrando, no pudo evitar perder parte del interés en Twitter: algunos usuarios encontraron en Tumblr una alternativa a las continuas caídas del servidor.
+
+El 26 de junio de 2012, Twitter pedía disculpas por la caída del servicio durante 40 minutos a nivel mundial. La aplicación había empezado a fallar a las 8:20 de la mañana y no sería hasta las 10:25 cuando Twitter podía navegarse con normalidad de nuevo. ¿La causa? Su data center, diseñado (como es lógico) para ser redundante, había experimentado el fallo de dos sistemas paralelos prácticamente al mismo tiempo, imposibilitando esa redundancia. La red social anunció medidas para evitar la situación en el futuro. En los años siguientes, Twitter ha experimentado pequeñas caídas que siempre se saldan con cierta desesperación por parte de sus usuarios, consumida una vez el servicio vuelve a su funcionamiento.
+
+### Gmail y Google+ se caen en 2014, afectando a millones de usuarios
+
+// ...
+
+### WhatsApp: su caída total en Año Nuevo de 2015 y sus efectos
 
 // ...
 
@@ -77,3 +91,11 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 **[4]** Carl Villanueva, John. JEscape. 2015. [5 Major Consequences of Downtime](http://www.jscape.com/blog/consequences-of-downtime).
 
 **[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/).
+
+**[6]** Segall, Laurie. CNN Money. 2010. [Twitter can't kill the Fail Whale](http://money.cnn.com/2010/06/15/technology/twitter_fail/index.htm?iid=EL)
+
+**[7]** Rawashdeh, Mazen. Twitter Inc. 2012. [Our apologies for today’s outage](https://blog.twitter.com/official/en_us/a/2012/our-apologies-for-today-s-outage.html).
+
+**[8]** Clay, Kelly. Forber. 2014. [Gmail And Google+ Go Down On Friday, Impacting Millions Of Users](https://www.forbes.com/sites/kellyclay/2014/01/24/gmail-and-google-go-down-on-friday-impacting-millions-of-users/#3b1849d46568)
+
+**[9]** Dredge, Stuart. The Guardian. 2014. [Messaging app Telegram added 5m new users the day after WhatsApp outage](https://www.theguardian.com/technology/2014/feb/24/telegram-messaging-app-whatsapp-down-facebook)
