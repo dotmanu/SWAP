@@ -62,11 +62,15 @@ El 26 de junio de 2012, Twitter pedía disculpas por la caída del servicio dura
 
 ### Gmail y Google+ se caen en 2014, afectando a millones de usuarios
 
-// ...
+Gmail, Google+ y otros servicios de Google como Hangouts o Drive dejaban de funcionar en junio de 2014. Al caerse Google+, afectaba también a Youtube, cuyo sistema de comentarios funcionaba a través de dicha plataforma. El buscador pareció verse afectado durante unos pocos minutos, también. Un acontecimiento que afectó a millones de usuarios, superando la gran caída de los servicios de Google en 2013, los cuales afectaron a un 50% de los usuarios.
+
+La dependencia de algunos negocios hacia Google, tanto para ser accedidos a través de sus búsquedas como para utilizar servicios como Gmail, hacen de una eventual caída de Google una de las grandes preocupaciones del sector tecnológico. En cuanto a sus usuarios, tiene un punto divertido: en esta ocasión, el descontrol y las quejas se virtieron, fundamentalmente, a través de Twitter. No es la primera vez: cuando se cae una red social, otra adquiere protagonismo para servir de salvoconducto a la caída del servicio.
 
 ### WhatsApp: su caída total en Año Nuevo de 2015 y sus efectos
 
-// ...
+El 31 de diciembre de 2015, WhatsApp se caía. Los servidores fallaban en la noche más importante del año: felicitaciones, planes y conversaciones de todo tipo, frustradas. La app de mensajería más famosa del mundo no estaba ofreciendo el servicio esperado en un día crucial, y sus usuarios abrazaron la frustración; la dependencia hacia WhatsApp les estaba complicando la vida.
+
+Efectos directos: al día siguiente, Telegram, otra aplicación de mensajería, conseguía aumentar su base de usuarios en ni más ni menos que 5 millones. Una auténtica barbaridad que le costó a Telegram sus respectivas dos horas de downtime durante el primer día de 2016. Telegram no estaba preparada para tal cantidad de nuevos registros y, aunque añadieron nuevos servidores, fue imposible dar respuesta al reguero constante de usuarios.
 
 ## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
 
@@ -92,10 +96,10 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 
 **[5]** Metz, Cade. TechRadar. 2014. [How Facebook Moved 20 Billion Instagram Photos Without You Noticing](https://www.wired.com/2014/06/facebook-instagram/).
 
-**[6]** Segall, Laurie. CNN Money. 2010. [Twitter can't kill the Fail Whale](http://money.cnn.com/2010/06/15/technology/twitter_fail/index.htm?iid=EL)
+**[6]** Segall, Laurie. CNN Money. 2010. [Twitter can't kill the Fail Whale](http://money.cnn.com/2010/06/15/technology/twitter_fail/index.htm?iid=EL).
 
 **[7]** Rawashdeh, Mazen. Twitter Inc. 2012. [Our apologies for today’s outage](https://blog.twitter.com/official/en_us/a/2012/our-apologies-for-today-s-outage.html).
 
-**[8]** Clay, Kelly. Forber. 2014. [Gmail And Google+ Go Down On Friday, Impacting Millions Of Users](https://www.forbes.com/sites/kellyclay/2014/01/24/gmail-and-google-go-down-on-friday-impacting-millions-of-users/#3b1849d46568)
+**[8]** Clay, Kelly. Forber. 2014. [Gmail And Google+ Go Down On Friday, Impacting Millions Of Users](https://www.forbes.com/sites/kellyclay/2014/01/24/gmail-and-google-go-down-on-friday-impacting-millions-of-users/#3b1849d46568).
 
-**[9]** Dredge, Stuart. The Guardian. 2014. [Messaging app Telegram added 5m new users the day after WhatsApp outage](https://www.theguardian.com/technology/2014/feb/24/telegram-messaging-app-whatsapp-down-facebook)
+**[9]** Dredge, Stuart. The Guardian. 2014. [Messaging app Telegram added 5m new users the day after WhatsApp outage](https://www.theguardian.com/technology/2014/feb/24/telegram-messaging-app-whatsapp-down-facebook).
