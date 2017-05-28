@@ -116,4 +116,4 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 
 **[9]** Dredge, Stuart. The Guardian. 2014. [Messaging app Telegram added 5m new users the day after WhatsApp outage](https://www.theguardian.com/technology/2014/feb/24/telegram-messaging-app-whatsapp-down-facebook).
 
-**[10]** Instagram Engineering. Medium. 2011. [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://engineering.instagram.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)
+**[10]** Instagram Engineering. Medium. 2011. [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://engineering.instagram.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad).
