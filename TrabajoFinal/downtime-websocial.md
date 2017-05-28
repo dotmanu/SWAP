@@ -66,7 +66,7 @@ Gmail, Google+ y otros servicios de Google como Hangouts o Drive dejaban de func
 
 La dependencia de algunos negocios hacia Google, tanto para ser accedidos a través de sus búsquedas como para utilizar servicios como Gmail, hacen de una eventual caída de Google una de las grandes preocupaciones del sector tecnológico. En cuanto a sus usuarios, tiene un punto divertido: en esta ocasión, el descontrol y las quejas se virtieron, fundamentalmente, a través de Twitter. No es la primera vez: cuando se cae una red social, otra adquiere protagonismo para servir de salvoconducto a la caída del servicio.
 
-### WhatsApp: su caída total en Año Nuevo de 2015 y sus efectos
+### WhatsApp: caída total en Año Nuevo de 2015 y auge de Telegram
 
 El 31 de diciembre de 2015, WhatsApp se caía. Los servidores fallaban en la noche más importante del año: felicitaciones, planes y conversaciones de todo tipo, frustradas. La app de mensajería más famosa del mundo no estaba ofreciendo el servicio esperado en un día crucial, y sus usuarios abrazaron la frustración; la dependencia hacia WhatsApp les estaba complicando la vida.
 
