@@ -74,7 +74,11 @@ Efectos directos: al día siguiente, Telegram, otra aplicación de mensajería, 
 
 ## 5. Un caso de buena praxis: cómo Facebook transfirió todo el contenido de Instagram a sus servidores
 
-// ...
+**Antecedentes:** antes de su compra por parte de Facebook, Instagram contaba con un servidor operado por Ubuntu Linux 11.04 y almacenado en Amazon EC2. Para el balanceador de carga, empezaron utilizando 2 máquinas con nginx y un DNS de tipo Round Robin entre ellas; más tarde, se pasaron al Elastic Load Balancer de Amazon, con tres instancias nginx intercambiables. Para el DNS también utilizaron un servicio de Amazon, concretamente el Route53. ¿Servidor de aplicaciones? Instagram tenía Django funcionando en las máquinas Amazon High-CPU Extra-Large. Como protocolo de transmisión del Web Server Gateway Interface (WSGI), [Gunicorn](http://gunicorn.org), un servidor HTTP para UNIX basado en Python. Para ejecutar comandos, [Fabric](http://www.fabfile.org).
+ 
+Por último, pero no menos importante, el almacenamiento de datos. Instagram utilizaba PostgreSQL. Todas sus instancias de PostgreSQL se ejecutaban en una configuración de réplica utilizando SR (Streaming Replication) y valiéndose de Elastic Load Balancer para realizar copias de seguridad de sus sistemas. Para almacenar las fotos, directas a Amazon S3 (Amazon Simple Storage Service), donde había varios terabytes de datos. Como CDN, Amazon CloudFront, con la idea de mejorar los tiempos de carga alrededor del globo. [Memcached](https://memcached.org) para la caché. Apache Solr para su API de búsqueda geolocalizada con interfaz en JSON. Como estructura de almacenamiento de datos (para el feed de imágenes, de actividad e sistema de sesiones), [Redis](https://redis.io).
+
+**La transferencia**: ...
 
 ## 6. Conclusiones: prevenir y actuar contra el *downtime*
 
@@ -103,3 +107,5 @@ En definitiva, podemos decir que viviendo en el momento histórico en el que viv
 **[8]** Clay, Kelly. Forber. 2014. [Gmail And Google+ Go Down On Friday, Impacting Millions Of Users](https://www.forbes.com/sites/kellyclay/2014/01/24/gmail-and-google-go-down-on-friday-impacting-millions-of-users/#3b1849d46568).
 
 **[9]** Dredge, Stuart. The Guardian. 2014. [Messaging app Telegram added 5m new users the day after WhatsApp outage](https://www.theguardian.com/technology/2014/feb/24/telegram-messaging-app-whatsapp-down-facebook).
+
+**[10]** Instagram Engineering. Medium. 2011. [What Powers Instagram: Hundreds of Instances, Dozens of Technologies](https://engineering.instagram.com/what-powers-instagram-hundreds-of-instances-dozens-of-technologies-adf2e22da2ad)
