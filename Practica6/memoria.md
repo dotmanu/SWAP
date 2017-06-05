@@ -17,9 +17,14 @@ Vemos que son ```sdb``` y ```sdc```. Creamos el RAID utilizando el dispositivo `
 
 ![alt text](http://i.imgur.com/0SqtK9q.png)
 
+![alt text](http://i.imgur.com/pdG5LVb.png)
+
 Solo resta crear un directorio y montar el RAID.
 
-![alt text](http://i.imgur.com/pdG5LVb.png)
+```
+mkdir /raid
+mount /dev/md0 /raid
+```
 
 ![alt text](http://i.imgur.com/dBFqatK.png)
 
