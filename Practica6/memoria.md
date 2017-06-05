@@ -32,4 +32,34 @@ Comprobamos que funciona correctamente:
 
 ![alt text](http://i.imgur.com/hMjUIC4.png)
 
-### Montaje RAID automático y simulación de fallo
+### Montaje RAID automático y simulación de fallos
+
+Con ```ls -l /dev/disk/by-uuid/``` obtenemos el UUID del disco. Hacemos esto para no tener que montar el disco cada vez que se inicie el sistema. 
+
+![alt text](http://i.imgur.com/x5vwkVn.png)
+
+Para evitarnos esto, añadiremos su UUID al ```fstab```.
+
+![alt text](http://i.imgur.com/uDsxZSA.png)
+
+Reiniciamos la máquina y vemos que funciona correctamente con la orden ```mount```.
+
+![alt text](http://i.imgur.com/qv0sq8v.jpg)
+
+Ahora, la prueba de fuego. Si un RAID falla, deberíamos poder seguir accediendo al otro. Para comprobarlo, simulamos un fallo en uno de ellos y hacemos que nos muestre información al respecto.
+
+![alt text](http://i.imgur.com/q1sTtbY.png)
+
+Vemos como uno de los discos está caído y, por tanto, podemos retirarlo.
+
+![alt text](http://i.imgur.com/OnWHDyH.png)
+
+Aún hay acceso a ```/raid```:  
+
+![alt text](http://i.imgur.com/WxLKoIT.png)
+
+Para terminar, volvemos a añadir el disco y vemos que se está reconstruyendo en *rebuild status*.
+
+![alt text](http://i.imgur.com/8wrlHBA.png)
+
+Ya lo tenemos listo.
