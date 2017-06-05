@@ -55,4 +55,6 @@ Para comprobar que está bien configurado, ejecutamos ```SHOW SLAVE STATUS\G``` 
 
 ![alt text](http://i.imgur.com/itPsSB6.png)
 
-¡Ya está!
+¡Ya está! Comprobamos que funciona:
+
+![alt text](http://i.imgur.com/Z6ADEGq.png)
