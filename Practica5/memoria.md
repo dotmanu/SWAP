@@ -22,3 +22,33 @@ Tras hacer el volcado con ```mysqldump contactos -u root -p > ejemplodb.sql```, 
 ![alt text](http://i.imgur.com/shrkFzc.png)
 
 ### Configuración maestro-esclavo
+
+Lo que vamos a hacer ahora es automatizar el proceso descrito anteriormente. Para ello, primero modificamos el archivo de configuración de *mysql* y comentamos el *bind address* en la máquina maestro.
+
+![alt text](http://i.imgur.com/yTDODby.png)
+
+Habilitamos el *error log* y el *bin log*, y ponemos el *server-id* a 1.
+
+![alt text](http://i.imgur.com/PD7eb0D.png)
+
+Tras esto, reiniciamos *mysql*.
+
+![alt text](http://i.imgur.com/ti13uGE.png)
+
+Ahora hacemos lo mismo en la máquina esclavo, con la diferencia de que pondremos el *server-id* a 2.
+
+![alt text]()
+
+De vuelta a la máquina maestro, creamos un usuario en la base de datos que de acceso a la máquina esclavo. 
+
+![alt text]()
+
+En la máquina esclavo, configuramos los datos de la máquina maestro. Lo iniciamos.
+
+![alt text]()
+
+En la máquina esclavo, desbloqueamos las tablas. Para comprobar que está bien configurado, ejecutamos ```SHOW SLAVE STATUS\G``` y nos aseguramos de que ```Seconds_Behind_Master``` no tiene un valor de ```NULL```.
+
+![alt text]()
+
+¡Ya está!
