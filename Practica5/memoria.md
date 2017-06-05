@@ -37,18 +37,22 @@ Tras esto, reiniciamos *mysql*.
 
 Ahora hacemos lo mismo en la máquina esclavo, con la diferencia de que pondremos el *server-id* a 2.
 
-![alt text]()
+![alt text](http://i.imgur.com/gReOdvS.png)
 
 De vuelta a la máquina maestro, creamos un usuario en la base de datos que de acceso a la máquina esclavo. 
 
-![alt text]()
+![alt text](http://i.imgur.com/mqvpef6.png)
 
 En la máquina esclavo, configuramos los datos de la máquina maestro. Lo iniciamos.
 
-![alt text]()
+![alt text](http://i.imgur.com/bBJ5Q8J.png)
 
-En la máquina esclavo, desbloqueamos las tablas. Para comprobar que está bien configurado, ejecutamos ```SHOW SLAVE STATUS\G``` y nos aseguramos de que ```Seconds_Behind_Master``` no tiene un valor de ```NULL```.
+En la máquina esclavo, desbloqueamos las tablas. 
 
-![alt text]()
+![alt text](http://i.imgur.com/sUZLA0r.png)
+
+Para comprobar que está bien configurado, ejecutamos ```SHOW SLAVE STATUS\G``` y nos aseguramos de que ```Seconds_Behind_Master``` no tiene un valor de ```NULL```.
+
+![alt text](http://i.imgur.com/itPsSB6.png)
 
 ¡Ya está!
